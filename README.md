@@ -1,5 +1,5 @@
-# MMM-darksky-hourly
-This an extension for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds localized weather using the [Dark Sky API](https://darksky.net/dev/) (originally Forecast.io) -- the same service that powers the [Dark Sky App](https://darksky.net/app/).
+# MMM-pirateweather-hourly
+This an extension for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds localized weather using the [Pirate Weather API](https://pirateweather.net) (based off of MMM-darksky-hourly, which is the same but used [Dark Sky API](https://darksky.net/dev/) (originally Forecast.io) -- the same service that powers the [Dark Sky App](https://darksky.net/app/)).
 
 ![screenshot](screenshot.png)
 
@@ -11,7 +11,7 @@ To use this module, add it to the modules array in the `config/config.js` file:
 ````javascript
 modules: [
   {
-    module: 'MMM-darksky-hourly',
+    module: 'MMM-pirateweather-hourly',
     position: 'top_right',  // This can be any of the regions.
     config: {
       // See 'Configuration options' for more information.
