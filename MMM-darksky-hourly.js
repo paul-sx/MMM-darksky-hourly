@@ -2,7 +2,7 @@ Module.register("MMM-darksky-hourly", {
 
   defaults: {
     apiKey: "",
-    apiBase: "https://api.darksky.net/forecast",
+    apiBase: "https://api.pirateweather.net/forecast",
     units: config.units,
     language: config.language,
     twentyFourHourTime: true,
@@ -94,7 +94,7 @@ Module.register("MMM-darksky-hourly", {
       // for debugging
       this.processWeather(this.config.data);
     } else {
-      getJSONP(url, this.processWeather.bind(this), this.processWeatherError.bind(this));
+      fetch(url).then(res => res.json()).then(out => this.processWeather(out)).catch(err => this.processWeatherError(err));
     }
   },
 
