@@ -55,7 +55,6 @@ Module.register("MMM-darksky-hourly", {
 
   getScripts: function () {
     return [
-      'jsonp.js',
       'moment.js'
     ];
   },
