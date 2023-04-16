@@ -60,7 +60,7 @@ Module.register("MMM-pirateweather-hourly", {
   },
 
   getStyles: function () {
-    return ["weather-icons.css", "MMM-pirateweather.css"];
+    return ["weather-icons.css", "MMM-pirateweather-hourly.css"];
   },
 
   shouldLookupGeolocation: function () {
