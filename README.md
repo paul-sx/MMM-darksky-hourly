@@ -1,5 +1,5 @@
 # MMM-pirateweather-hourly
-This an extension for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds localized weather using the [Pirate Weather API](https://pirateweather.net) (based off of MMM-darksky-hourly, which is the same but used [Dark Sky API](https://darksky.net/dev/) (originally Forecast.io) -- the same service that powers the [Dark Sky App](https://darksky.net/app/)).
+This an extension for [MagicMirror](https://github.com/MichMich/MagicMirror) that adds localized weather using the [Pirate Weather API](https://pirateweather.net) (based off of MMM-darksky-hourly, which is the same but used [Dark Sky API](https://darksky.net/dev/) (originally Forecast.io)).
 
 ![screenshot](screenshot.png)
 
@@ -15,7 +15,7 @@ modules: [
     position: 'top_right',  // This can be any of the regions.
     config: {
       // See 'Configuration options' for more information.
-      apiKey: 'abcde12345abcde12345abcde12345ab', // Dark Sky API key.
+      apiKey: 'abcde12345abcde12345abcde12345ab', // Pirate Weather API key.
       latitude:   16.77532,
       longitude: -3.008265
     }
@@ -36,7 +36,7 @@ modules: [
   <tbody>
     <tr>
       <td><code>apiKey</code></td>
-      <td>The <a href="https://darksky.net/dev/" target="_blank">Dark Sky API</a> key, which can be obtained by creating an Dark Sky API account.<br>
+      <td>The <a href="https://pirate-weather.apiable.io/" target="_blank">Pirate Weather API</a> key, which can be obtained by creating an Pirate Weather API account.<br>
         <br> This value is <b>REQUIRED</b>
       </td>
     </tr>

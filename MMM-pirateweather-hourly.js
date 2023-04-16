@@ -1,4 +1,4 @@
-Module.register("MMM-darksky-hourly", {
+Module.register("MMM-pirateweather-hourly", {
 
   defaults: {
     apiKey: "",
@@ -60,7 +60,7 @@ Module.register("MMM-darksky-hourly", {
   },
 
   getStyles: function () {
-    return ["weather-icons.css", "MMM-darksky-hourly.css"];
+    return ["weather-icons.css", "MMM-pirateweather.css"];
   },
 
   shouldLookupGeolocation: function () {
@@ -127,7 +127,7 @@ Module.register("MMM-darksky-hourly", {
     var wrapper = document.createElement("div");
 
     if (this.config.apiKey === "") {
-      wrapper.innerHTML = "Please set the correct forcast.io <i>apiKey</i> in the config for module: " + this.name + ".";
+      wrapper.innerHTML = "Please set the correct pirateweather <i>apiKey</i> in the config for module: " + this.name + ".";
       wrapper.className = "dimmed light small";
       return wrapper;
     }
