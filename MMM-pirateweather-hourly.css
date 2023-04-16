@@ -1,15 +1,15 @@
-.MMM-darksky-hourly {
+.MMM-pirateweather-hourly {
 }
 
-.MMM-darksky-hourly .dark{
+.MMM-pirateweather-hourly .dark{
 	color: #777;
 }
 
-.MMM-darksky-hourly .darker{
+.MMM-pirateweather-hourly .darker{
 	color: #444;
 }
 
-.MMM-darksky-hourly .big-icon {
+.MMM-pirateweather-hourly .big-icon {
   font-size: 75%;
   line-height: 65px;
   display: inline-block;
@@ -18,50 +18,50 @@
   transform: translate(0, -3px);
 }
 
-.MMM-darksky-hourly .summary {
+.MMM-pirateweather-hourly .summary {
   width: 400px;
 }
 
-.MMM-darksky-hourly .forecast {
+.MMM-pirateweather-hourly .forecast {
   text-align: right;
   min-width: 400px;
   margin-top: 1ex;
 }
 
-.MMM-darksky-hourly .forecast-row {
+.MMM-pirateweather-hourly .forecast-row {
 }
 
-.MMM-darksky-hourly .forecast-row>span {
+.MMM-pirateweather-hourly .forecast-row>span {
   display: table-cell;
   width: 1px;
 }
 
-.MMM-darksky-hourly .forecast-row .forecast-day {
+.MMM-pirateweather-hourly .forecast-row .forecast-day {
   text-align: left;
   padding-right: 0.1em;
 }
 
-.MMM-darksky-hourly .forecast-row .forecast-hour {
+.MMM-pirateweather-hourly .forecast-row .forecast-hour {
   text-align: right;
   padding-right: 0.6em;
 }
 
-.MMM-darksky-hourly .forecast-row .weathericon {
+.MMM-pirateweather-hourly .forecast-row .weathericon {
   text-align: center;
   padding-right: 0.5em;
 }
 
-.MMM-darksky-hourly .forecast-bar {
+.MMM-pirateweather-hourly .forecast-bar {
   display: table;
   overflow: hidden;
 }
 
-.MMM-darksky-hourly .forecast-bar>span {
+.MMM-pirateweather-hourly .forecast-bar>span {
   display: table-cell;
   text-align: center;
 }
 
-.MMM-darksky-hourly .forecast-bar .bar {
+.MMM-pirateweather-hourly .forecast-bar .bar {
   background-color: #aaa;
   line-height: 0.8em;
   border-radius: 1em;
@@ -70,12 +70,12 @@
   color: black;
 }
 
-.small.MMM-darksky-hourly .forecast {
+.small.MMM-pirateweather-hourly .forecast {
   min-width: 200px;
   max-width: 300px;
 }
 
-.small.MMM-darksky-hourly .summary {
+.small.MMM-pirateweather-hourly .summary {
   width: 300px;
 }
 
